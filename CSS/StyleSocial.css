@@ -3,7 +3,7 @@
 
 /*Seu Código*/
 .section-seu-codigo          { padding:10px 0px; background-color:#212121; }
-.section-seu-codigo .content { float:left; padding:1em 0; }
+.section-seu-codigo .content { float:left; padding:1em 0; list-style-type: none;}
 
 
 /*AppSocial*/
@@ -16,7 +16,7 @@
 }
 
 .btn_social ul  { 
-
+	
 	width:auto; 
 	margin:auto; 
 	float:left; 
@@ -24,7 +24,7 @@
 }
 
 .btn_social ul li  { 
-
+	
 	position:relative; 
 	background:#080808; 
 	list-style:none; 
