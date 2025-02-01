@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/Style.css"/> 
+    <link rel="stylesheet" href="CSS/acessibilidade.css"/>
     <link rel="stylesheet" type="text/css" href="CSS/reset.css">
 	<link rel="stylesheet" type="text/css" href="CSS/StyleSocial.css">
     <link rel="stylesheet" type="text/css" href="CSS/fonts-icones.css">
-    
+    <script src="/JS/acessibilidade.js"></script>
     <title>Magic - Strixhaven </title>
     
 </head>
@@ -22,6 +23,30 @@
             <a class="NavM" href="/Pages/contato.html">Contato</a>
         </nav>
     </header>
+    <div id="acessibilidade-menu" class="acessibilidade-menu">
+        <span>Acessibilidade</span>
+        <div>
+            <button id="diminuir-fonte" aria-label="Diminuir tamanho da fonte">
+                <span class="sr-only">Diminuir tamanho da fonte</span>
+                A-
+            </button>
+            <button id="normalizar-fonte" aria-label="Normalizar tamanho da fonte">
+                <span class="sr-only">Normalizar tamanho da fonte</span>
+                aA
+            </button>
+            <button id="aumentar-fonte" aria-label="Aumentar tamanho da fonte">
+                <span class="sr-only">Aumentar tamanho da fonte</span>
+                A+
+            </button>
+        </div>
+        <button id="contraste" aria-label="Ativar/desativar modo de alto contraste">
+            <img src="/Icon/Contraste.svg" alt="Ativar e desativar modo de alto contraste">
+        </button>
+        <button id="vlibras-button" aria-label="Ativar VLibras">
+            <span class="sr-only">Ativar/desativar VLibras</span>
+            <img src="/Icon/VLibras.svg" alt="Ativar e desativar VLibras">
+        </button>
+    </div>
     <div id="Banner"></div>
     <div id="trailer-conteiner">
         <div class="content1">
@@ -120,6 +145,15 @@
             </div>
         </section>
     </main>
-    
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 </html>
