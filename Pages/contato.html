@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pr-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,18 +20,27 @@
             <a class="NavM" href="/Pages/contato.html">Contato</a>
         </nav>
     </header>
-
+    <div id="container-contact">
+        <form id="contactForm">
+            <h2>Contato</h2>
+            <input type="text" id="name" placeholder="Nome" required>
+            
+            <input type="email" id="email" placeholder="E-mail" required>
+            
+            <textarea id="message" rows="4" placeholder="Mensagem" required></textarea>
+            
+            <button class="option" type="submit">Enviar</button>
+        </form>
+    </div>
 
     <main class="main_content container">  
         <section class="section-seu-codigo container">
             <div class="content">
                 <nav class="btn_social">
                     <ul>
-                       <li><a href="#" target="_blank" title="facebook"><i class="icon icon-facebook"></i></a></li>
-                       <li><a href="#" target="_blank" title="instagram"><i class="icon icon-instagram"></i></a></li>
-                       <li><a href="#" target="_blank" title="youtube"><i class="icon icon-youtube"></i></a></li>
-                       <li><a href="#" target="_blank" title="twitter"><i class="icon icon-twitter"></i></a></li>
-                       <li><a href="#" target="_blank" title="linkdin"><i class="icon icon-linkedin"></i></a></li>
+                       <li><a href="https://github.com/VHEB" target="_blank" title="facebook"><i class="icon icon-github"></i></a></li>
+                       <li><a href="https://www.instagram.com/vitor_heb/" target="_blank" title="instagram"><i class="icon icon-instagram"></i></a></li>
+                       <li><a href="https://www.linkedin.com/in/vitor-heb/" target="_blank" title="linkdin"><i class="icon icon-linkedin"></i></a></li>
                     </ul>
                     <p class="description2">Todos os Direitos Reservados© <br>
                         Desenvolvido por Vitor Hugo Estefano Barbosa
@@ -40,5 +49,12 @@
             </div>
         </section>
     </main>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            alert("Seu e-mail foi enviado com sucesso!");
+            document.getElementById("contactForm").reset();
+        });
+    </script>
 </body>
 </html>
