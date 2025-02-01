@@ -11,6 +11,7 @@
 /*Estilização da barra de navegação*/
 header{
     height: 90px;
+    background-color: #0e0e0e;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -105,17 +106,6 @@ button{
   font-family: 'Libre Baskerville', serif;
   font-size: 15px;
   text-transform: uppercase;
-}
-button:hover{
-  transition: 0.5s;
-  border-radius: 25%;
-  width: 160px;
-  height: 70px;
-  background-color: #949494;
-  border-color: #bebebe;
-  color: #FAFAFA;
-  font-size: 20;
-  cursor: pointer;
 }
 
 #mapa{

@@ -1,29 +1,117 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
-
-.card{
+/* ============================
+   Estilos para as Cards
+=============================== */
+.card {
     width: 200px;
     height: auto;
     cursor: pointer;
     transition: 1.5s;
 }
-.card:hover{
+
+.card:hover {
     width: 250px;
 }
 
+/* ============================
+   Container dos Decks
+=============================== */
+#conteiner-deck {
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
 
-.description1{
+/* ============================
+   Estilos para Descrições
+=============================== */
+.description1 {
     color: antiquewhite;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Libre Baskerville', serif;    
     text-align: center;
     margin-right: 25px;
+    border-bottom: antiquewhite 1px solid;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
-.description3{
+
+.description3 {
     color: antiquewhite;
     font-size: 20px;
     font-family: 'Libre Baskerville', serif;    
-    text-align:left ;
+    text-align: left;
     margin-left: 50px;
     margin-bottom: 10px;
+}
+
+/* ============================
+   Estilos para o Container do Deck
+=============================== */
+.deck {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================
+   Estilos para o Botão Toggle
+=============================== */
+.toggle-deck {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 2px solid #A1887F; /* Cor da borda */
+    border-radius: 4px;
+    color: #fafafa;           /* Cor do texto */
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+.toggle-deck:hover {
+    background-color: #FF5722;
+    color: #fafafa;
+}
+
+/* ============================
+   Estilos para o Conteúdo do Deck
+=============================== */
+.deck-content {
+    max-height: 120px;       /* Mostra apenas uma parte do conteúdo */
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.5s ease;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Degradê indicando que há mais conteúdo */
+.deck-content::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px; /* Altura do degradê */
+    background: linear-gradient(transparent, #fff); /* Cor do degradê */
+    pointer-events: none;
+}
+
+/* Quando a classe "open" é adicionada, expande o conteúdo */
+.deck-content.open {
+    max-height: 100%; /* Valor suficientemente alto para revelar todo o conteúdo */
+}
+
+/* Remove o degradê quando o conteúdo está expandido */
+.deck-content.open::after {
+    display: none;
 }
