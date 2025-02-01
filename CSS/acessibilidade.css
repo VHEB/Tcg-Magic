@@ -85,9 +85,6 @@
     filter: none !important;
 }
 
-.alto-contraste img {
-    border: none !important;
-    filter: invert(1);
-}
+
 
 
