@@ -1,49 +1,61 @@
-<h1 align="left">Magic | Strixhaven.</h1>
+<h1 align="center"> Magic | Strixhaven </h1>
 
-###
+<p align="center">
+  <a href="#-guia">Guia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#book-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+  <a href="#email-contato">Contato</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-<p align="left">Projeto de uma fanpage do universo de Magic, e dentro desse universo a expanção de Strixhaven, o mundo mágico do Harry Potter sem o Harry Potter.</p>
+## 🚀 **Guia**
 
-###
+Este guia descreve como clonar o repositório, configurar o ambiente e iniciar o projeto. Siga os passos abaixo para configurar o projeto localmente.
 
-<h2 align="left">Tecnologias</h2>
+---
 
-###
+1 - **Clone do Repositório**
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-</div>
+Primeiro, clone o repositório para sua máquina local:
 
-###
+```bash
+https://github.com/VHEB/Tcg-Magic.git
+```
 
-<div align="center">
-  <img height="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWtzejg0czY1c2c3MWw4YjZnOHJvcWZoa3YwbjVnNTRiM3Jqa3RkbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ArQx7POyXlJBipWlFP/giphy.gif"  />
-</div>
+Navegue até a pasta do projeto.
 
-###
+---
 
-<div align="center">
-  <img height="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWtzejg0czY1c2c3MWw4YjZnOHJvcWZoa3YwbjVnNTRiM3Jqa3RkbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/uU4Pk2LUfJZr8pffzl/giphy.gif"  />
-</div>
+## 2 - **Abra o Projeto**
 
-###
+O projeto é composto por arquivos HTML, CSS e JavaScript. Para abri-lo, siga estes passos:
 
-<div align="center">
-  <img height="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWtzejg0czY1c2c3MWw4YjZnOHJvcWZoa3YwbjVnNTRiM3Jqa3RkbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/mFQaLDNO51ZkKLDsVV/giphy.gif"  />
-</div>
+1. Navegue até a pasta do projeto.
+2. Abra o arquivo `index.html` diretamente em um navegador.
 
-###
+Acesse o link para conferir o projeto funcionando:
+```bash
+https://vheb.github.io/Tcg-Magic/
+```
+---
 
-<div align="center">
-  <img height="200" src="https://media.giphy.com/media/GgucN80jiGtrBfGdQ6/giphy.gif?cid=790b7611aksz84s65sg71l8b6g8roqfhkv0n5g54b3rjktdl&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
-</div>
+## :book: **Tecnologias**
 
-###
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-<div align="center">
-  <img height="200" src="https://media.giphy.com/media/rqBn2E5S3pSEwXUU4o/giphy.gif?cid=790b7611aksz84s65sg71l8b6g8roqfhkv0n5g54b3rjktdl&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
-</div>
+- HTML
+- CSS
+- JavaScript
 
-###
+---
+
+## 💻 **Projeto**
+
+O projeto **Magic | Strixhaven** é uma fanpage inspirada no universo de Magic: The Gathering, focada na expansão **Strixhaven**, um mundo mágico semelhante ao universo de Harry Potter.
+
+---
+
+## :email: **Contato**
+
+Se precisar de ajuda, sinta-se à vontade para perguntar!
+
+Você também pode me encontrar no [LinkedIn](https://www.linkedin.com/in/seu-perfil/).
