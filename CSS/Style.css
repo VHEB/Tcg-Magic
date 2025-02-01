@@ -117,6 +117,13 @@ button:hover{
   font-size: 20;
   cursor: pointer;
 }
+
+#mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*Estilização dos Videos e texto*/
 
 #trailer-conteiner{
