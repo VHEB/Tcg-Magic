@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/Style.css"/> 
+    <link rel="stylesheet" href="/CSS/StyleDecks.css"/>
     <link rel="stylesheet" type="text/css" href="/CSS/reset.css">
 	<link rel="stylesheet" type="text/css" href="/CSS/StyleSocial.css">
     <link rel="stylesheet" type="text/css" href="/CSS/fonts-icones.css">
@@ -21,6 +22,20 @@
         </nav>
     </header>
 
+    <div id="quiz-container">
+        <h2 id="question-title" class="description1"></h2>
+
+        <div id="options-container"></div>
+
+        <div class="quiz-controls">
+            <button id="prev-btn" class="toggle-deck">Voltar</button>
+            <button id="next-btn" class="toggle-deck">Avançar</button>
+        </div>
+
+        <div id="result-container" class="description1"></div>
+    </div>
+
+    
 
     <main class="main_content container">  
         <section class="section-seu-codigo container">
@@ -40,5 +55,7 @@
             </div>
         </section>
     </main>
+
+    <script src="/JS/quiz.js"></script>
 </body>
 </html>

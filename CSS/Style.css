@@ -91,15 +91,6 @@ body{
     height: 700px;
 }
 
-/*Botão*/
-button{
-  border-radius: 30%;
-  width: 150px;
-  height: 60px;
-  background-color: #FAFAFA;
-  border-color: #949494 ;
-  justify-content: center;
-}
 
 .AnimButton{
   color: black;
@@ -166,7 +157,51 @@ button{
     margin-top: 20px;
 }
 
-.description1{ /*Usando na aba de Decks */
+/* Estilização do quiz */
+#quiz-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #212121;
+  border: 2px solid #A1887F;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.option {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #A1887F;
+  background-color: transparent;
+  color: #FAFAFA;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option:hover {
+  background-color: #FF5722;
+  color: white;
+}
+
+#result-container {
+  display: none;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+
+.description1{ 
     color: #FAFAFA;
     font-size: 20px;
     font-family: 'Libre Baskerville', serif;    
